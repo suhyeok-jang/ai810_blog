@@ -304,7 +304,6 @@ retrieved during optimization. So from the information-flow perspective,
 supervised learning and RL are indeed equivalent in this particular case. Maybe
 Francois Chollet was not too extreme for suggesting to _get rid of deep RL
 altogether_ in his tweet (note that it predates DPO. Personally, I don't believe in a complete futility of deep RL, but for RLHF he was on point):
-{% twitter https://twitter.com/fchollet/status/1630241783111364608?s=20 %}
 .
 
 Another surprising aspect of DPO is the question: *Why has nobody done this before?*

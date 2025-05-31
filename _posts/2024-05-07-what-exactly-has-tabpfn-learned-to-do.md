@@ -59,11 +59,6 @@ Subsequent works have reproduced its classification performance on other tabular
 
 At the same time, TabPFN has received criticism from within the applied ML community, around concerns that its "one large neural network is all you need" approach is fundamentally flawed and that its performance on public benchmarks may be due to overfitting.
 
-{% twitter https://twitter.com/tunguz/status/1583417038965334017 %}
-
-{% twitter https://twitter.com/predict_addict/status/1726286748173385732 %}
-
-
 In this article, we will attempt to demystify TabPFN's behavior in order to move towards a resolution to these questions.
 With this goal, we will take a different tack to analyzing TabPFN than previous works: 
 we will neither theoretically analyze its meta-learning pre-training approach, nor run it on yet another dataset-of-datasets, nor even mechanistically interpret the meaning of specific model weights or subnetworks. 
